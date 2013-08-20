@@ -27,3 +27,5 @@ Usage:
           
           
      Note: It does not resize the image. If required please remove "#" (comment) from the image.resize(<width>,<height>) 
+     
+     Example : http://rawgithub.com/chinmay1/monochrome/master/example.html
