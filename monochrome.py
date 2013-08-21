@@ -38,7 +38,6 @@ def to_ascee(path,destination):
     image_file = image_file.convert('L')
 #   image_file = image_file.resize((384,216))
     new_image = "<html><body><pre style=\"font-size:1px\">\n"
-    print new_image
     for y in range(image_file.size[1]):
 	for x in range(image_file.size[0]):
 	    pixel = 255 - image_file.getpixel((x,y))
